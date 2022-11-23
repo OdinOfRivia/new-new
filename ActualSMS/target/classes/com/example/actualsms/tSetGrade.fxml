@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.actualsms.TSetGrade">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="590.0" layoutX="7.0" opacity="0.29">
+         <image>
+            <Image url="@../../../img/MIT_Seal.svg.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="556.0" layoutY="2.0" mnemonicParsing="false" onAction="#backBTN" text="Back" />
+      <Label layoutX="238.0" layoutY="36.0" prefHeight="49.0" prefWidth="129.0" text="Set Grade">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

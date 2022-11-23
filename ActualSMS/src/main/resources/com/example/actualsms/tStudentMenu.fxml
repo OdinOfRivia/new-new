@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.actualsms.TStudentMenu">
+    <children>
+        <ImageView fitHeight="400.0" fitWidth="600.0" opacity="0.29">
+            <image>
+                <Image url="@../../../img/MIT_Seal.svg.png" />
+            </image>
+        </ImageView>
+        <Button layoutX="559.0" layoutY="2.0" mnemonicParsing="false" onAction="#backBTN" text="Back" />
+        <Button layoutX="154.0" layoutY="34.0" mnemonicParsing="false" onAction="#addStudentBTN" prefHeight="39.0" prefWidth="115.0" text="Add Student" />
+        <Button layoutX="306.0" layoutY="34.0" mnemonicParsing="false" onAction="#edditStudentBTN" prefHeight="39.0" prefWidth="115.0" text="Eddit Student" />
+        <TableView fx:id="tableID" layoutX="26.0" layoutY="100.0" prefHeight="274.0" prefWidth="543.0">
+            <columns>
+                <TableColumn fx:id="firstName" prefWidth="75.0" text="First Name" />
+                <TableColumn fx:id="lastName" prefWidth="90.0" text="Last Name" />
+                <TableColumn fx:id="age" prefWidth="58.0" text="Age" />
+                <TableColumn fx:id="email" prefWidth="77.0" text="Email" />
+                <TableColumn fx:id="phoneNumber" prefWidth="98.0" text="Phone Number" />
+                <TableColumn fx:id="id" prefWidth="58.0" text="ID" />
+                <TableColumn fx:id="country" prefWidth="69.0" text="Country" />
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>
